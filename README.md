@@ -1,4 +1,4 @@
-# 🛍️ VIX E-Commerce Product Display
+# 🛍️ E-Commerce Product Display
 
 Aplikasi e-commerce sederhana yang dibangun menggunakan **Vue.js 3** dengan **Options API** dan **Vanilla CSS**. Aplikasi ini menampilkan produk satu per satu dari FakeStore API dengan tema warna berbeda berdasarkan kategori produk.
 
@@ -22,7 +22,7 @@ Aplikasi e-commerce sederhana yang dibangun menggunakan **Vue.js 3** dengan **Op
 
 ## 📖 Tentang Proyek
 
-Proyek ini merupakan bagian dari **VIX Front End Core Initiative** yang bertujuan untuk membangun interface e-commerce sederhana. Aplikasi menampilkan produk dari FakeStore API dengan fitur:
+Proyek ini merupakan bagian dari **Project Based Intern - Front End Developer - Core Initiative X Rakamin Academy** yang bertujuan untuk membangun interface e-commerce sederhana. Aplikasi menampilkan produk dari FakeStore API dengan fitur:
 
 - Menampilkan satu produk pada satu waktu
 - Navigasi ke produk berikutnya dengan tombol "Next Product"
@@ -116,7 +116,7 @@ ecommerce/
 1. **Clone atau download repository**
 
    ```bash
-   cd TASK_5/ecommerce
+   git clone https://github.com/komaraip/ecommerce-catalog.git
    ```
 
 2. **Install dependencies**
