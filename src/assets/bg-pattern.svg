@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Triangle -->
+  <path d="M30 50 L50 20 L70 50 Z" fill="none" stroke="#00000015" stroke-width="1"/>
+  <!-- Circle -->
+  <circle cx="140" cy="40" r="12" fill="none" stroke="#00000012" stroke-width="1"/>
+  <!-- Diamond -->
+  <path d="M170 100 L185 115 L170 130 L155 115 Z" fill="none" stroke="#00000010" stroke-width="1"/>
+  <!-- Triangle 2 -->
+  <path d="M100 80 L120 50 L140 80 Z" fill="none" stroke="#00000012" stroke-width="1"/>
+  <!-- Circle 2 -->
+  <circle cx="50" cy="120" r="10" fill="none" stroke="#00000010" stroke-width="1"/>
+  <!-- Diamond 2 -->
+  <path d="M80 160 L95 175 L80 190 L65 175 Z" fill="none" stroke="#00000012" stroke-width="1"/>
+  <!-- Triangle 3 -->
+  <path d="M150 160 L170 130 L190 160 Z" fill="none" stroke="#00000010" stroke-width="1"/>
+</svg>

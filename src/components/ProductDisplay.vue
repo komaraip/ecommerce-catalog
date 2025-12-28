@@ -1,12 +1,12 @@
 <template>
   <div :class="['app-container', containerClass]">
-    <div v-if="isLoading" class="loading-container">
-      <div class="loading-spinner"></div>
-      <p class="loading-text">Loading product...</p>
-    </div>
+    <div class="product-card" :class="[!isLoading && product ? categoryClass : '']">
+      <div v-if="isLoading" class="loading-container">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading product...</p>
+      </div>
 
-    <div v-else-if="product" :class="['product-card', categoryClass]">
-      <template v-if="isClothingProduct">
+      <template v-else-if="product && isClothingProduct">
         <div class="product-image-container">
           <img
             :src="product.image"
@@ -51,7 +51,7 @@
         </div>
       </template>
 
-      <template v-else>
+      <template v-else-if="product && !isClothingProduct">
         <div class="unavailable-content">
           <div class="sad-face">
             <img src="@/assets/sad-face.svg" alt="Sad face" />
@@ -63,10 +63,8 @@
           </button>
         </div>
       </template>
-    </div>
 
-    <div v-else class="product-card product-card--unavailable">
-      <div class="unavailable-content">
+      <div v-else class="unavailable-content">
         <p class="unavailable-text">
           Failed to load product. Please try again.
         </p>
