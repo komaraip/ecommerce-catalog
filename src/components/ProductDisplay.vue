@@ -54,31 +54,7 @@
       <template v-else>
         <div class="unavailable-content">
           <div class="sad-face">
-            <svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M30 40 Q50 25 70 40"
-                stroke="#3F3F3F"
-                stroke-width="6"
-                fill="none"
-                stroke-linecap="round"
-              />
-              <path
-                d="M130 40 Q150 25 170 40"
-                stroke="#3F3F3F"
-                stroke-width="6"
-                fill="none"
-                stroke-linecap="round"
-              />
-              <circle cx="50" cy="60" r="10" fill="#3F3F3F" />
-              <circle cx="150" cy="60" r="10" fill="#3F3F3F" />
-              <path
-                d="M40 130 Q100 90 160 130"
-                stroke="#3F3F3F"
-                stroke-width="6"
-                fill="none"
-                stroke-linecap="round"
-              />
-            </svg>
+            <img src="@/assets/sad-face.svg" alt="Sad face" />
           </div>
 
           <p class="unavailable-text">This product is unavailable to show</p>
