@@ -4,6 +4,12 @@ Aplikasi e-commerce sederhana yang dibangun menggunakan **Vue.js 3** dengan **Op
 
 ---
 
+## 🎬 Presentasi
+
+📊 **[Lihat Slide Presentasi](https://www.canva.com/design/DAG86PoWgFs/sfjSC88IPANxn8qHvLWYOg/view?utm_content=DAG86PoWgFs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc4994c8835)**
+
+---
+
 ## 📋 Daftar Isi
 
 - [Tentang Proyek](#-tentang-proyek)
